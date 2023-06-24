@@ -11,6 +11,7 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .navlogo {
   height: 50px;
@@ -58,6 +59,10 @@
   background-color: pink;
 }
 
+.navsearchbar:hover {
+  border: 2px solid orange;
+}
+
 .navselect {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -74,4 +79,37 @@
 }
 
 .searchicon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.signin1 {
+  font-size: 0.85rem;
+}
+
+.signin2 {
+  font-weight: 600;
+}
+
+.return {
+  font-size: 0.85rem;
+}
+
+.orders {
+  font-weight: 600;
+}
+
+.navcart i {
+  font-size: 1.7rem;
+}
+
+.navcart {
+  font-weight: 600;
 }
